@@ -1,0 +1,24 @@
+video {
+  width: 100%;
+}
+
+video::-webkit-media-text-track-container {
+  /* Style the container */
+
+  color: #555;
+  margin-bottom: 30px;
+}
+
+video::cue {
+  opacity: 1;
+  background: #ddd;
+  font-size: 21px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+}
+/* video container*/
+
+video::-webkit-media-text-track-container {
+  transform: translateY(-35px);
+}
